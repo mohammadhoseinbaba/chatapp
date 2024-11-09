@@ -17,7 +17,7 @@ const Detail = () => {
           </div>
         </div><div className="option">
           <div className="title">
-            <span>privacy and help</span>
+            <span>privacy & help</span>
             <img src="./arrowUp.png" alt="" />
           </div>
         </div><div className="option">
@@ -25,19 +25,43 @@ const Detail = () => {
             <span>Shared photos</span>
             <img src="./arrowDown.png" alt="" />
           </div>
+        </div><div className="option">
+          <div className="title">
+            <span>Shared Files</span>
+            <img src="./arrowUp.png" alt="" />
+          </div>
           <div className="photos">
             <div className="photoItem">
               <div className="photoDetail">
               <img src="./bg1.jpg" alt="" />
               <span>photo-2024-2.png</span>
               </div>
-              <img src="./download.png" alt="" />
+              <img src="./download.png" alt="" className="icon"/>
             </div>
-          </div>
-        </div><div className="option">
-          <div className="title">
-            <span>Shared Files</span>
-            <img src="./arrowUp.png" alt="" />
+          </div><div className="photos">
+            <div className="photoItem">
+              <div className="photoDetail">
+              <img src="./bg1.jpg" alt="" />
+              <span>photo-2024-2.png</span>
+              </div>
+              <img src="./download.png" alt="" className="icon"/>
+            </div>
+          </div><div className="photos">
+            <div className="photoItem">
+              <div className="photoDetail">
+              <img src="./bg1.jpg" alt="" />
+              <span>photo-2024-2.png</span>
+              </div>
+              <img src="./download.png" alt="" className="icon"/>
+            </div>
+          </div><div className="photos">
+            <div className="photoItem">
+              <div className="photoDetail">
+              <img src="./bg1.jpg" alt="" />
+              <span>photo-2024-2.png</span>
+              </div>
+              <img src="./download.png" alt="" className="icon"/>
+            </div>
           </div>
         </div>
         <button>Block user</button>
