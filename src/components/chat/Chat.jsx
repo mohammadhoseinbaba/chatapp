@@ -26,10 +26,59 @@ setText((prev)=>prev+e.emoji)
         </div>
       </div>
       <div className="center">
+      <div className="message">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis 
+              nemo voluptatum blanditiis, dignissimos praesentium vel
+               totam ut itaque natus dicta alias repudiandae molestias
+              dolore quam earum mollitia consequuntur numquam quod!</p>
+            <span>1min ago</span>
+          </div>
+        </div>
+        <div className="message own">
+          <div className="texts">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis 
+              nemo voluptatum blanditiis, dignissimos praesentium vel
+               totam ut itaque natus dicta alias repudiandae molestias
+              dolore quam earum mollitia consequuntur numquam quod!</p>
+            <span>1min ago</span>
+          </div>
+        </div><div className="message">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis 
+              nemo voluptatum blanditiis, dignissimos praesentium vel
+               totam ut itaque natus dicta alias repudiandae molestias
+              dolore quam earum mollitia consequuntur numquam quod!</p>
+            <span>1min ago</span>
+          </div>
+        </div><div className="message own">
+          <div className="texts">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis 
+              nemo voluptatum blanditiis, dignissimos praesentium vel
+               totam ut itaque natus dicta alias repudiandae molestias
+              dolore quam earum mollitia consequuntur numquam quod!</p>
+            <span>1min ago</span>
+          </div>
+        </div>
         <div className="message">
           <img src="./avatar.png" alt="" />
           <div className="texts">
-            <p>lor</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis 
+              nemo voluptatum blanditiis, dignissimos praesentium vel
+               totam ut itaque natus dicta alias repudiandae molestias
+              dolore quam earum mollitia consequuntur numquam quod!</p>
+            <span>1min ago</span>
+          </div>
+        </div>
+        <div className="message own">
+          <div className="texts">
+            <img src="./bg1.jpg" alt="" />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis 
+              nemo voluptatum blanditiis, dignissimos praesentium vel
+               totam ut itaque natus dicta alias repudiandae molestias
+              dolore quam earum mollitia consequuntur numquam quod!</p>
             <span>1min ago</span>
           </div>
         </div>
