@@ -1,11 +1,13 @@
 .detail{
     flex: 1;
+    overflow: auto;
     .user{
         padding: 30px 20px;
         display: flex;
         flex-direction: column;
         border-bottom: 1px solid #dddddd35;
-        gap: 20px;
+        gap: 15px;
+        align-items: center;
         img{
             width: 100px;
             height: 100px;
@@ -19,9 +21,7 @@
         padding: 20px;
         display: flex;
         flex-direction: column;
-        gap: 30px;
-
-
+        gap: 25px;
         .option{
             .title{
                 display: flex;
@@ -82,16 +82,22 @@ span{
             }
         }
         button{
-            padding: 10px 20px;
+            padding: 15px 20px;
             background-color: rgba(230, 74, 105, 0.553);
             color: white;
             border: none;
             border-radius: 5px;
             cursor: pointer;
             transition-duration: 0.4s;
+            
+            &:hover{
+                background-color: red;
+            }
+                &.logout{
+                    padding: 10px;
+                    background-color: #1a73e8;
+                }
+            }
         }
-        button:hover{
-            background-color: red;
-        }
+      
     }
-}
