@@ -6,7 +6,7 @@ import Notification from './components/Notification/Notification'
 const App = () => {
 
 
-const user = false
+const user = true
 
 
 
