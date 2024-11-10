@@ -12,10 +12,8 @@ const AddUser = () => {
                 <div className="detail">
                     <img src="./avatar.png" alt="" />
                     <span>Jane Doe</span>
-                    <button>
-                        add user
-                    </button>
                 </div>
+                <button>add user</button>
             </div>
         </div>
     )
